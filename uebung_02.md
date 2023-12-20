@@ -35,6 +35,8 @@ http://routinglaravel.test/name/jens/nachname/simon
 
 http://routinglaravel.test/name/kim/nachname/schmitz
 
+// diese beiden urls müssen eine "404 - not found" Meldung zeigen, da die route nicht korrekt abgebildet wird:
+
 http://routinglaravel.test/name/nachname/schmitz
 
 http://routinglaravel.test/name/jens/nachname
