@@ -247,7 +247,7 @@ das funktioniert natürlich trotzdem. Hier in der Lösung ist das Tempate vollst
 // uebung_11
 // http://routinglaravel.test/users
 // sollte vor den resource-Route kommen!!!
-// bis L7
+// ab L7
 //Route::get('users','CertificateController@showUser');
 // ab L8
 Route::get('users',[CertificateController::class,"showUser"]);
@@ -488,25 +488,25 @@ show_user.blade.php , die Datei manuell anlegen!
 					<li style="color: green">{{$user['name']}}  
 						<small>{{$user['email']}}</small>
 					</li> 
-					@break
+				@break
 
 				@case( $user['age'] >= 18 && !isset($user['phone']) ) 
 					<li style="color: blue">{{$user['name']}}  
 						<small>{{$user['email']}}</small>
 					</li> 
-					@break
+				@break
 				
 				@case( $user['age'] < 18 && isset($user['phone']) )
 					<li style="color: brown">{{$user['name']}}
 						<small>{{$user['email']}}</small>
 					</li> 
-					@break
+				@break
 				
 				@case( $user['age'] >= 18 && isset($user['phone']) )
 					<li style="color: magenta">{{$user['name']}} 
 						<small>{{$user['email']}}</small>
 					</li> 
-					@break
+				@break
 			
 				@endswitch 
 
