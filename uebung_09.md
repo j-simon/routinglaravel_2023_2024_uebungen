@@ -48,7 +48,7 @@ public function nameList() {
   sollte vor der resource-Route-Methode kommen!!!
 */
 
-// bis L7
+// ab L7
 //Route::get('names','CertificateController@nameList');
 
 // ab L8
