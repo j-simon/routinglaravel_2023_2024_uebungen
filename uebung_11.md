@@ -236,7 +236,7 @@ https://gist.github.com/Cosnavel/9328849e064a8ca74bdfccabff6fb13a
 BASIERT AUF ÜBUNG 10!!!!
 
 VORSICHT: im Lösungsvideo hat der Autor kein vollständiges HTML-Grundgerüst in das Template gesetzt ,
-das funktioniert natürlich trotzdem. Hier in der Lösung ist das Tempate vollständig (siehe unten)!
+das funktioniert natürlich trotzdem und er hat noch einen Logik Fehler, die Fälle wurden nicht mit if / else, sonder mit switch / case / break ermittelt, und hier wurden die breaks vergessen. Hier in der Lösung ist das Tempate vollständig (siehe unten)!
 
 **Lösung:**
 
