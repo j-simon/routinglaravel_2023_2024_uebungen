@@ -18,10 +18,10 @@ use Illuminate\Support\Collection;
 
 $collect = collect(['eloquent','laravel','laravel','collection','collection','model','migration','eloquent','collection','php','php','php']);
 
-var_dump($collect);
+dump($collect);
 
 $ergebnis = $collect->unique()->map(function($item){ return strtoupper($item);}  ) ;  
-var_dump($collect);
+dump($ergebnis);
 
 // Das Ergebnis entsteht in 2 Schritten:
 //
