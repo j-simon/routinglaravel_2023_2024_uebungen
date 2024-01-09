@@ -131,7 +131,7 @@ Im ArticleController.php:
 			'text' => 'required'
 		]);	
 		
-		Article::create($request->all());
+		\App\Article::create($request->all());
 		
 		return "success - alles OK!";
 		
