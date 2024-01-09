@@ -18,7 +18,7 @@ use Illuminate\Support\Collection;
 
 // Das Array wird in eine Collection überführt
 $collect = collect([1,2,3,4,5,6,7,8,9]);
-var_dump($collect);
+dump($collect);
 
 // Die neue Ergbnis Collection wird in 2 Schritten gebildet:
 //
